@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Tulsa Garden Club</string>
+    <string name="log_out">Log Out</string>
+    <string name="awards">Awards</string>
+    <string name="entry_form">Entry Form</string>
+    <string name="send_verification">Send Verification</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="job_description_here">- Job Description Here -</string>
+    <string name="your_name_here">Your Name Here</string>
+</resources>
