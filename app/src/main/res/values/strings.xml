@@ -9,4 +9,10 @@
     <string name="sign_out">Sign Out</string>
     <string name="job_description_here">- Job Description Here -</string>
     <string name="your_name_here">Your Name Here</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="enter_your_full_name">Enter your full name</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="enter_your_password_again">Enter your password again</string>
+    <string name="create_account">Create Account</string>
+    <string name="back">Back</string>
 </resources>

@@ -12,7 +12,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TulsaGardenClub">
         <activity
+            android:name=".EntryForm"
+            android:exported="false" />
+        <activity
+            android:name=".CreateAccount"
+            android:exported="false" />
+        <activity
+            android:name=".ResetPasswordView"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileView"
+            android:exported="false" />
+        <activity
+            android:name=".HomePageView"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

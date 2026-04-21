@@ -8,17 +8,17 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-class MainActivity : AppCompatActivity() {
+class EntryForm : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         enableEdgeToEdge()
 
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_entry_form)
 
-        val entryFormButton = findViewById<Button>(R.id.entryFormButton)
-        entryFormButton.setOnClickListener {
-            val intent = Intent(this, EntryForm::class.java)
+        val backButton = findViewById<Button>(R.id.backButton)
+        backButton.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
 

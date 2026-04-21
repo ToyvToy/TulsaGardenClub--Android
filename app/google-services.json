@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "813171263923",
+    "project_id": "tulsagardenclub-android",
+    "storage_bucket": "tulsagardenclub-android.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:813171263923:android:a9422b83772a17953863c6",
+        "android_client_info": {
+          "package_name": "com.example.tulsagardenclub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFbDDDCX48vr0Y53yDOeX3j6T-LIWONvk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
