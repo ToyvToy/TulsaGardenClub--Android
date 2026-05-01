@@ -13,6 +13,7 @@
         android:id="@+id/backButton"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/green"
         android:text="@string/back"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
