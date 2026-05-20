@@ -17,4 +17,6 @@
     <string name="back">Back</string>
     <string name="program_description">The Tulsa Garden Flower Show is a beautiful competition of many different plants, allowing people to come see what others have put their time and dedication towards. This is a great time to become a great listener and learn about the different plants that exists that you probably did not know existed :)</string>
     <string name="view_events">View Events</string>
+    <string name="create_an_account">Create An Account</string>
+    <string name="log_in">Log In</string>
 </resources>

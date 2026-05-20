@@ -16,15 +16,11 @@ class ProfileView : AppCompatActivity() {
 
         setContentView(R.layout.activity_profile_view)
 
-        val backButton = findViewById<Button>(R.id.backButton)
-        backButton.setOnClickListener {
-            val intent = Intent(this, MainActivity::class.java)
-            startActivity(intent)
-        }
 
-        val signOutButton = findViewById<Button>(R.id.signOutButton)
-        signOutButton.setOnClickListener {
-            val intent = Intent(this, HomePageView::class.java)
+
+        val createAnAccountButton = findViewById<Button>(R.id.createAnAccountButton)
+        createAnAccountButton.setOnClickListener {
+            val intent = Intent(this, CreateAccount::class.java)
             startActivity(intent)
         }
 
