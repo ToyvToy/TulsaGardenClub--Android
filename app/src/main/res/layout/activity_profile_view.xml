@@ -11,9 +11,9 @@
 
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/profileCardView"
             android:layout_width="412dp"
             android:layout_height="523dp"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent">
 
@@ -54,30 +54,48 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     android:layout_marginTop="8dp" />
 
-                <Button
-                    android:id="@+id/logInButton"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/log_in"
-                    android:backgroundTint="@color/green"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    android:layout_marginBottom="50dp" />
-
-                <Button
-                    android:id="@+id/createAnAccountButton"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/create_an_account"
-                    android:backgroundTint="@color/green"
-                    app:layout_constraintTop_toBottomOf="@id/logInButton"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintBottom_toBottomOf="parent"/>
-
             </androidx.constraintlayout.widget.ConstraintLayout>
 
         </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/logInButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/log_in"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/green"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/profileCardView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="50dp" />
+
+    <Button
+        android:id="@+id/createAnAccountButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create_an_account"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/green"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/logInButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/backButton"/>
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/green"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/createAnAccountButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
